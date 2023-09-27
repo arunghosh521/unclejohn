@@ -1,0 +1,167 @@
+*{
+    width: 100%;
+    margin: 0;
+    
+    }
+body{
+    background-color: #fff;
+    color: black;
+    font-family: poppins1, sans-serif;
+}
+.header{
+    position: fixed;
+    z-index: 3;
+    background-color: #fff;
+    width: 100%;
+    height: 72px;
+    display: flex;
+}
+
+nav{
+    width: 255px;
+    height: 15px;
+    margin-left: 83px;
+}
+.nav-home {
+    margin-left: 30em;
+    margin-top: 1.5em;
+    
+}
+.nav-home a{
+    color: black;
+    text-decoration: none;
+    padding-left: 3em;
+    
+    
+}
+.row h4{
+    width: 400px;
+    height: 45px;
+    margin-left: 450px;
+    margin-top: 110px;
+    padding-top: 29px;
+    color: white;
+    text-align: center;
+    background-color: #0052a1;
+    
+}
+.col{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    gap: 25px;
+}
+.col1{
+    width: 350px;
+    padding-left: 4px;
+    background: #f2e4cf;
+}
+.col-txt{
+    box-sizing: border-box;
+    background-color: #0052a1;
+    text-align: center;
+    height: 55px;
+    padding: 20px;
+}
+.col-img{
+    padding: 5px 0;
+    position: relative;
+    margin-bottom: 50px;
+}
+.view{
+    width: 164PX;
+    TEXT-ALIGN: center;
+    BOX-SIZING: BORDER-BOX;
+    BACKGROUND: #ed1b24;
+    HEIGHT: 50PX;
+    PADDING-TOP: 15PX;
+    BORDER-RADIUS: 5PX;
+    MARGIN-LEFT: 44%;
+    color: #fff;
+}
+.view h4{
+    margin-left: -14px;
+    font-size: 17px;
+}
+.arrow{
+    position: absolute;
+    width: 23px;
+    margin-left: 126px;
+    margin-top: -22px;
+}
+.about{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 405px;
+    margin-top: 124px;
+    background-image: url(/UncleJohn/images/about-home-bg.jpg);
+}
+.about h4{
+    margin-left: 105px;
+    padding-top: 61px;
+    color: #0052a1;
+    font-size: 23px;
+    font-weight: 600;
+}
+.about h2{
+    margin-left: 105px;
+    padding-top: 13px;
+    color: #ed1b24;
+    font-size: 35px;
+    font-weight: 500;
+}
+.about p{
+    margin-left: 105px;
+    padding-top: 13px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.read{
+    width: 164PX;
+    TEXT-ALIGN: center;
+    BOX-SIZING: BORDER-BOX;
+    BACKGROUND: #ed1b24;
+    HEIGHT: 50PX;
+    PADDING-TOP: 13PX;
+    BORDER-RADIUS: 5PX;
+    MARGIN-LEFT: 105px;
+    color: #fff;
+}
+.arrow1{
+    position: absolute;
+    width: 20px;
+    margin-left: 137px;
+    margin-top: -22px;
+}
+.read h4{
+    margin-left: -10px;
+    padding-top: 1px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.img-abt{
+    margin-right: 150px;
+    justify-content: right;
+    width: 650px;
+    height: 100px;
+}
+.media{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    gap: 30px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.ftr-txt{
+    margin-left: 520px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: fit-content;
+}
